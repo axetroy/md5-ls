@@ -11,8 +11,8 @@ List of files/directory MD5 value
 > example: export PATH=$PATH:$GOPATH/bin
 
 ```bash
-go get -v github.com/axetroy/md5
-./$GOPATH/bin/md5
+go get -v github.com/axetroy/md5-ls
+./$GOPATH/bin/md5-ls
 
 # output the result like this
 
@@ -33,10 +33,10 @@ Print the cli help information
 
 ```bash
 
-md5 --help
+md5-ls --help
 
 NAME:
-   md5 - md5 [path]
+   md5-ls - md5-ls [path]
 
 USAGE:
    main [global options] command [command options] [arguments...]
@@ -57,15 +57,15 @@ GLOBAL OPTIONS:
 
 ## Contributing
 
-[Contributing Guid](https://github.com/axetroy/md5/blob/master/CONTRIBUTING.md)
+[Contributing Guid](https://github.com/axetroy/md5-ls/blob/master/CONTRIBUTING.md)
 
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars1.githubusercontent.com/u/9758711?v=3" width="100px;"/><br /><sub>Axetroy</sub>](http://axetroy.github.io)<br />[💻](https://github.com/axetroy/md5/commits?author=axetroy) [🐛](https://github.com/axetroy/md5/issues?q=author%3Aaxetroy) 🎨 |
+| [<img src="https://avatars1.githubusercontent.com/u/9758711?v=3" width="100px;"/><br /><sub>Axetroy</sub>](http://axetroy.github.io)<br />[💻](https://github.com/axetroy/md5-ls/commits?author=axetroy) [🐛](https://github.com/axetroy/md5-ls/issues?q=author%3Aaxetroy) 🎨 |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faxetroy%2Fmd5.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faxetroy%2Fmd5?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faxetroy%2Fmd5-ls.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faxetroy%2Fmd5-ls?ref=badge_large)

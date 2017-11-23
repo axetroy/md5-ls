@@ -14,6 +14,8 @@ import (
 
 const (
   fileChunk = 8192 // 8KB
+  name      = "md5-ls"
+  version   = "0.0.1"
 )
 
 /**
@@ -53,8 +55,9 @@ func calcMd5(filePath string) (string) {
 func main() {
   app := cli.NewApp()
 
-  app.Name = "md5"
-  app.Usage = "md5 [path]"
+  app.Name = name
+  app.Usage = name + " [path]"
+  app.Version = version
   app.Description = "Display the file/dir md5 value"
 
   app.Action = func(c *cli.Context) (err error) {
