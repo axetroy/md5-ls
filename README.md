@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/axetroy/md5.svg?branch=master)](https://travis-ci.org/axetroy/md5)
 ![License](https://img.shields.io/badge/license-Apache-green.svg)
 
-Display the file/dir md5 value
+List of files/directory MD5 value
 
 ## Usage
 
