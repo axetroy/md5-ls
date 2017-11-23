@@ -8,11 +8,12 @@ List of files/directory MD5 value
 ## Usage
 
 > Make sure $GOPATH/bin have been add to $PATH
+
 > example: export PATH=$PATH:$GOPATH/bin
 
 ```bash
 go get -v github.com/axetroy/md5-ls
-./$GOPATH/bin/md5-ls
+md5-ls
 
 # output the result like this
 
